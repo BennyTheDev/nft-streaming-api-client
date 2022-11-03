@@ -63,7 +63,7 @@ Here is a summary of available channels you may subscribe to:
 * trending
 * * Frequently updated list of trending collections.
 * discounts
-* * Same as listings but contains the actual sub-floor price from < 10%.
+* * Same as listings but only those being sold for 10% below floor or even less.
 
 There is also a misc subscription with useful data:
 
