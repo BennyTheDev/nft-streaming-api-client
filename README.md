@@ -33,7 +33,7 @@ Then open the file api_client_kitchen_sink.js in a code editor and add your Rari
 Again in your terminal or console program run:
 
 ```bash
-node file api_client_kitchen_sink.js
+node api_client_kitchen_sink.js
 ```
 
 It is recommended to use the [PM2](https://pm2.keymetrics.io/) package for production.
