@@ -39,3 +39,39 @@ node api_client_kitchen_sink.js
 It is recommended to use the [PM2](https://pm2.keymetrics.io/) package for production.
 
 You may now explore and enjoy the data. For detailed questions, feel free to visit the support in our [Discord](https://discord.gg/Ur8XGaurSd).
+
+## Available Subscription Channels
+
+Currently, there is only OpenSea and EIP-721 support but we will add a lot more with further development.
+
+Here is a summary of available channels you may subscribe to:
+
+/v1/opensea
+
+* listings
+* * Cleaned and verified new listing events.
+* hot listings
+* * Pre-verified new listings with limited data but speedier.
+* sales
+* * Cleaned and verified sale events.
+* cancelled
+* * Cleaned and verified cancellations. Also includes bulk canncellations and transfer of listed items.
+* expired
+* * Expired items
+* transfers
+* * Transfers of listed items. Useful to track if items on sale are moved in the meanwhile.
+* trending
+* * Frequently updated list of trending collections.
+* discounts
+* * Same as listings but contains the actual sub-floor price from < 10%.
+
+There is also a misc subscription with useful data:
+
+/v1/misc
+
+* pending
+* * All currently pending ERC-721 sales.
+* block updates
+* * Block and block time updates.
+* gas updates
+* * The current fast gas price.
