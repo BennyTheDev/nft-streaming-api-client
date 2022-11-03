@@ -2,7 +2,7 @@
 
 [Rarity Garden](https://rarity.garden)
 
-An NFT streaming API by Rarity Garden
+An NFT streaming API client by Rarity Garden
 
 ## Synopsis
 
