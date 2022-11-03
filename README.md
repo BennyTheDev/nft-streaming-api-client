@@ -1,4 +1,4 @@
-# NFT Streaming API
+# NFT Streaming API Client
 
 [Rarity Garden](https://rarity.garden)
 
