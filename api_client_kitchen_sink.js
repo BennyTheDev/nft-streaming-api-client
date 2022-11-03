@@ -9,7 +9,7 @@ let socket_options = {autoConnect : true, reconnection: true, reconnectionDelay:
  * OPENSEA SUBSCRIPTIONS
  */
 
-let socket = io("http://stream.rarity.garden:3001/v1/opensea", socket_options);
+let socket = io("https://stream.rarity.garden:3001/v1/opensea", socket_options);
 socket.auth = { api_key : api_key };
 socket.connect();
 
@@ -75,7 +75,7 @@ socket.on('listings', function(payload)
  * MISC SUBSCRIPTIONS
  */
 
-let misc = io("http://stream.rarity.garden:3001/v1/misc", socket_options);
+let misc = io("https://stream.rarity.garden:3001/v1/misc", socket_options);
 misc.auth = { api_key : api_key };
 misc.connect();
 
